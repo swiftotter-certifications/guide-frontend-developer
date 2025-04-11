@@ -1,0 +1,74 @@
+name: Adobe Commerce Expert Frontend Developer
+subname: AD0-E720
+author: Joseph Maxwell and Vitaliy Golomoziy
+copyright_year: 2025
+title_template: ""
+chapter_template: ""
+book_template: ""
+image: "images/book-title.png"
+background_color: "#87d4ff"
+link_color: "#0000FF"
+link_hover_color: "#6666FF"
+layout:
+  introduction:
+    name: "Introduction"
+    files:
+      - content/introduction/introduction.md
+      - content/introduction/we-are-swiftotter.md
+      - content/introduction/driver.md
+  objective1:
+    name: Theme Management
+    files:
+      - content/objective-1/1.1-theme-structure.md
+      - content/objective-1/1.2-create-theme.md
+      - content/objective-1/1.3-extend-theme.md
+      - content/objective-1/1.4-customize-emails.md
+      - content/objective-1/1.5-apply-translations.md
+      - content/objective-1/1.6-file-locations.md
+  objective2:
+    name: Layout XML & Templates (phtml templates)
+    files:
+      - content/objective-2/2.1-xml-instructions.md
+      - content/objective-2/2.2-new-page-layouts.md
+      - content/objective-2/2.3-extending-xml.md
+      - content/objective-2/2.4-template-arguments.md
+      - content/objective-2/2.5-create-templates.md
+      - content/objective-2/2.6-securing-templates.md
+  objective3:
+    name: Styles
+    files:
+      - content/objective-3/3.1-styles-purpose.md
+      - content/objective-3/3.2-partials.md
+      - content/objective-3/3.3-override-extend.md
+      - content/objective-3/3.4-core-concepts.md
+      - content/objective-3/3.5-email-styles.md
+      - content/objective-3/3.6-style-hierarchy.md
+      - content/objective-3/3.7-library-components.md
+      - content/objective-3/3.8-compilation.md
+  objective4:
+    name: JavaScript (mage widgets, mage library, customer data module, Knockout templates)
+    files:
+      - content/objective-4/4.1-initialize-components.md
+      - content/objective-4/4.2-components-use-cases.md
+      - content/objective-4/4.3-requirejs.md
+      - content/objective-4/4.4-mixins.md
+      - content/objective-4/4.5-translations.md
+      - content/objective-4/4.6-ui-components.md
+      - content/objective-4/4.7-knockoutjs.md
+      - content/objective-4/4.8-jquery-widgets.md
+      - content/objective-4/4.9-components-xml.md
+  objective5:
+    name: Admin Configuration and Page Builder
+    files:
+      - content/objective-5/5.1-customize-page-builder.md
+      - content/objective-5/5.2-frontend-optimization.md
+      - content/objective-5/5.3-customize-emails.md
+      - content/objective-5/5.4-admin-dev-tools.md
+  objective6:
+    name: Tools (CLI and Grunt)
+    files:
+      - content/objective-6/6.1-magento-commands.md
+      - content/objective-6/6.2-composer-commands.md
+      - content/objective-6/6.3-deploy-modes.md
+      - content/objective-6/6.4-grunt.md
+      - content/objective-6/6.5-cloud-tools.md
